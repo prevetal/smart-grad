@@ -1,0 +1,1001 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title_big: 48px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block.big_m
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 60px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 10px;
+        height: 18px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0;
+    }
+
+
+    header .menu_btn
+    {
+        margin-left: 40px;
+    }
+
+
+    header .search
+    {
+        margin-left: 32px;
+    }
+
+    header .search .btn .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+    header .messengers a + a
+    {
+        margin-left: 8px;
+    }
+
+
+    header .callback_btn
+    {
+        width: 192px;
+        margin-left: 32px;
+    }
+
+
+    header .links
+    {
+        margin-left: 32px;
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    header .links .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+
+    /*---------------
+        Side menu
+    ---------------*/
+    .side_menu
+    {
+        width: 400px;
+    }
+
+
+    .side_menu .head
+    {
+        padding: 20px;
+    }
+
+
+    .side_menu .scroll
+    {
+        padding: 100px 20px 20px;
+    }
+
+
+    .side_menu .links .title
+    {
+        font-size: 22px;
+    }
+
+
+    .side_menu .contacts
+    {
+        padding-top: 80px;
+    }
+
+    .side_menu .contacts .phone
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.big_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head.big_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .swiper .cont
+    {
+        min-height: 650px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .main_slider .btn
+    {
+        width: 280px;
+        height: 55px;
+    }
+
+
+    .main_slider .advantages
+    {
+        bottom: 80px;
+    }
+
+
+    .main_slider .advantages .row
+    {
+        margin-left: -24px;
+    }
+
+    .main_slider .advantages .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .main_slider .advantages .icon
+    {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 12px;
+    }
+
+
+    .main_slider .video_link
+    {
+        right: 24px;
+
+        margin-right: 0;
+    }
+
+
+    .main_slider .video_link
+    {
+        top: 41%;
+    }
+
+    .main_slider .video_link .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .main_slider .video_link .icon svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .about .block_head .desc
+    {
+        font-size: 18px;
+
+        width: 640px;
+    }
+
+
+    .about .data
+    {
+        width: 280px;
+    }
+
+
+    .about .help
+    {
+        margin-top: 60px;
+    }
+
+    .about .help .btn
+    {
+        height: 55px;
+    }
+
+
+    .about .image
+    {
+        width: calc(100% - 400px);
+    }
+
+
+
+    /*----------------
+        Make order
+    ----------------*/
+    .make_order .total_prices
+    {
+        width: 480px;
+    }
+
+
+    .make_order .form .line
+    {
+        width: calc((100% - 280px) / 2);
+    }
+
+
+    .make_order .form .submit
+    {
+        width: 240px;
+    }
+
+
+
+    /*------------------
+        For partners
+    ------------------*/
+    .for_partners .head .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .for_partners .logos .row > *
+    {
+        width: calc(20% - 20px);
+    }
+
+
+    .for_partners .logos .item
+    {
+        height: 120px;
+    }
+
+
+
+    /*------------
+        We are
+    ------------*/
+    .we_are .data
+    {
+        padding-top: 20px;
+    }
+
+
+    .we_are .item .icon
+    {
+        width: 80px;
+        height: 88px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .certs .bg
+    {
+        height: calc(100% + 108px);
+    }
+
+
+    .certs .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+        padding-top: 20px;
+    }
+
+    .certs .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .certs .item
+    {
+        padding: 43px;
+    }
+
+
+    .certs .item .plus
+    {
+        right: 43px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .item
+    {
+        height: 268px;
+    }
+
+    .portfolio .item.big_h
+    {
+        height: 556px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .category .thumb
+    {
+        height: 292px;
+    }
+
+
+
+    /*-----------------
+        Video block
+    -----------------*/
+    .video_block
+    {
+        padding: 120px 0;
+    }
+
+
+    .video_block .video_link
+    {
+        width: 480px;
+        height: 480px;
+    }
+
+
+    .video_block .video_link .icon
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .video_block .data
+    {
+        width: calc(100% - 520px);
+    }
+
+
+    .video_block .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .video_block.light .link a
+    {
+        color: currentColor;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .contacts_info .map
+    {
+        height: 450px;
+        margin-top: 60px;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .col_main
+    {
+        width: calc(100% - 344px);
+    }
+
+
+    .checkout_info .col_right
+    {
+        width: 320px;
+    }
+
+
+
+    /*-------------------
+        LK - Personal
+    -------------------*/
+    .lk .personal .addresses .item
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+        LK - Orders
+    -----------------*/
+    .orders .order .head .number
+    {
+        width: 160px;
+        min-width: 160px;
+    }
+
+
+    .orders .order .head .date_time,
+    .orders .order .head .amount
+    {
+        width: 260px;
+        min-width: 260px;
+    }
+
+
+    .orders .order .product .articul
+    {
+        width: 160px;
+        min-width: 160px;
+    }
+
+    .orders .order .product .price,
+    .orders .order .product .amount
+    {
+        width: 260px;
+        min-width: 260px;
+    }
+
+
+
+    /*------------------
+        Article head
+    ------------------*/
+    .article_head
+    {
+        padding: 80px 0;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info.bg:before
+    {
+        height: calc(100% - 120px);
+    }
+
+
+    .article_info .col_left
+    {
+        width: 480px;
+    }
+
+
+    .article_info .data
+    {
+        width: calc(100% - 520px);
+    }
+
+
+    .article_info .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service
+    {
+        height: 272px;
+    }
+
+    .services .service.big_h
+    {
+        height: 564px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 22px;
+
+        padding: 30px;
+    }
+
+
+
+    /*------------------------
+        Request for design
+    ------------------------*/
+    .request_for_design .block_head
+    {
+        width: 500px;
+    }
+
+
+    .request_for_design .form
+    {
+        width: calc(100% - 540px);
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .filter .mini_modal
+    {
+        padding: 20px;
+    }
+
+
+    .category_info .filter .form .title
+    {
+        margin-bottom: 31px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+    }
+
+
+    .category_info .filter .form .scroll
+    {
+        width: calc(100% - 20px);
+        max-height: 230px;
+    }
+
+
+    .category_info .filter .form .checkbox
+    {
+        font-size: 14px;
+
+        min-height: 20px;
+        padding-left: 36px;
+    }
+
+    .category_info .filter .form .checkbox .check
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .category_info .filter .form * + .label
+    {
+        margin-top: 30px;
+    }
+
+    .category_info .filter .form .label
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: 440px;
+    }
+
+
+    .product_info .images + .data
+    {
+        width: calc(100% - 460px);
+    }
+
+
+    .product_info .buy .price .old
+    {
+        margin-left: 24px;
+    }
+
+
+    .product_info .information
+    {
+        display: flex;
+        align-content: stretch;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .product_info .information .item
+    {
+        width: 100%;
+        padding: 27px 19px;
+    }
+
+    .product_info .information .item + .item
+    {
+        border: none;
+        border-left: 1px solid #ebebeb;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .row
+    {
+        padding-top: 32px;
+    }
+
+
+    .benefits .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .benefits .row > *:nth-child(2n)
+    {
+        margin-top: 108px;
+    }
+
+
+    .benefits .item .number
+    {
+        line-height: 72px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .benefits .item .desc
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .benefits .btn
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        height: 560px;
+    }
+
+
+
+    /*--------------------
+        Stages of work
+    --------------------*/
+    .stages_of_work .stage
+    {
+        padding: 20px;
+    }
+
+
+    .stages_of_work .stage .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .items
+    {
+        font-size: 22px;
+    }
+
+
+    .prices .action .data
+    {
+        width: 548px;
+    }
+
+
+    .prices .action .title
+    {
+        font-size: 32px;
+    }
+
+
+    .prices .action .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Examples
+    --------------*/
+    .examples .swiper-slide
+    {
+        width: 400px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .step0 .next_btn
+    {
+        margin-top: 210px;
+    }
+
+
+    .quiz .step3 .next_btn
+    {
+        margin-top: 238px;
+    }
+
+
+    .quiz .step4 .next_btn
+    {
+        margin-top: 116px;
+    }
+
+
+    .quiz .step_final .btns
+    {
+        margin-top: 247px;
+    }
+
+
+    .quiz .get_bonus .get_bonus_btn
+    {
+        margin-top: 160px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        height: 800px;
+        margin-bottom: 140px;
+        padding: 68px 0;
+    }
+
+
+    .about_head .data
+    {
+        width: 488px;
+        margin-right: 0;
+    }
+
+
+    .about_head .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_head .img
+    {
+        width: 446px;
+        margin-right: 40px;
+    }
+
+
+
+    /*-----------
+        Facts
+    -----------*/
+    .facts .item
+    {
+        font-size: 18px;
+
+        min-height: 200px;
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        Video reviews
+    -------------------*/
+    .video_reviews .swiper-slide
+    {
+        width: 400px;
+    }
+
+
+    .video_reviews .link .icon
+    {
+        width: 85px;
+        height: 85px;
+    }
+
+
+    .video_reviews .link .icon svg
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*--------------------
+        Become partner
+    --------------------*/
+    .become_partner .block_head,
+    .become_partner .form
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .list
+    {
+        width: calc(100% - 400px);
+    }
+
+
+    .comments .add_comment
+    {
+        width: 360px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        font-size: 14px;
+
+        padding: 20px 0;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 68px;
+    }
+
+
+    footer .slogan
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

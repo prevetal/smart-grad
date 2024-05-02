@@ -1,0 +1,129 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    top: auto;
+    bottom: 100%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 34px;
+
+    transition: background .2s linear;
+    transform: none;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #1573ca;
+}
+
+.swiper-button-prev
+{
+    right: 84px;
+    left: auto;
+}
+
+.swiper-button-next
+{
+    right: 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 12px;
+    height: 21px;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    background: #1f7dd4;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: 2px;
+
+    pointer-events: none;
+}
+
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 30px;
+    height: 2px;
+
+    transition: opacity .2s linear;
+    pointer-events: auto;
+
+    opacity: .26;
+    border-radius: 2px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 9px !important;
+}
+
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    opacity: 1;
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
